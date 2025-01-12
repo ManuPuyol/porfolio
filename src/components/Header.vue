@@ -12,17 +12,6 @@
         class="flex items-center space-x-10 text-lg tracking-wide px-5 py-4 font-bold bg-secondary-gradient [text-shadow:_0_2px_4px_rgb(99_102_241_/_0.8)] bg-clip-text text-transparent flex-1 justify-center"
       >
         <li>
-          <a href="#home" class="flex items-center group">
-            <HomeIcon
-              class="h-8 w-8 text-primary-200 sm:hidden"
-            />
-            <span
-              class="hidden sm:block group-hover:text-primary-100 transition-colors duration-300 ease-in-out"
-              >HOME</span
-            >
-          </a>
-        </li>
-        <li>
           <a href="#about" class="flex items-center group">
             <UserCircleIcon
               class="h-8 w-8 text-primary-200 sm:hidden"
