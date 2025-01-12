@@ -1,9 +1,12 @@
 <template>
   <div class="min-h-screen flex flex-col">
-    <Header />
-    <Home />
-    <About />
-    <Footer />
+    <!-- Contenedor centrado con tamaño máximo -->
+    <div class="max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8">
+      <Header />
+      <Home />
+      <About />
+      <Footer />
+    </div>
   </div>
 </template>
   
