@@ -1,30 +1,25 @@
 <template>
-  <nav>
-    <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
-  </nav>
-  <router-view/>
+  <div id="app" className="welcome_welcome__3C4rQ">
+    <section className="welcome_section__1M5uK">
+      <Main />
+      <div>
+        <div className="welcome_stars__3pTdX" />
+        <div className="welcome_stars1__3xuRs" />
+        <div className="welcome_stars2__-7oQW" />
+        <div className="welcome_shooting_stars__2Of5U" />
+      </div>
+      <div className="welcome_shooting_stars__2Of5U" />
+    </section>
+  </div>
 </template>
 
-<style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-}
-
-nav {
-  padding: 30px;
-}
-
-nav a {
-  font-weight: bold;
-  color: #2c3e50;
-}
-
-nav a.router-link-exact-active {
-  color: #42b983;
-}
-</style>
+<script>
+import Main from "./views/Main.vue";
+// refactorizar: animacion de estrellas.
+export default {
+  name: "App",
+  components: {
+    Main,
+  },
+};
+</script>
